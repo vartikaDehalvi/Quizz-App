@@ -91,6 +91,47 @@ button:focus-visible {
 		color: #747bff;
 	}
 	button {
-		background-color: #f9f9f9;
+		border-radius: 8px;
+		border: 1px solid transparent;
+		padding: 0.6em 1.2em;
+		font-size: 1em;
+		font-weight: 500;
+		font-family: inherit;
+		cursor: pointer;
+		transition: border-color 0.25s;
+		color: '#020446ff';
+	}
+
+	.btn-grad {
+		background-image: linear-gradient(
+			to right,
+			#9192dd85 0%,
+			#b5b5df80 40%,
+			#9294eb3f 100%
+		);
+	}
+	.btn-grad {
+		margin: 10px;
+		padding: 15px 45px;
+		text-align: center;
+		text-transform: uppercase;
+		transition: 0.5s;
+		background-size: 200% auto;
+		color: #020446ff;
+		box-shadow: 0 0 20px #eee;
+		border-radius: 10px;
+	}
+
+	.btn-grad:hover {
+		background-position: right center;
+		color: #020446ff;
+		text-decoration: none;
+		border: 0.2px solid rgba(1, 2, 27, 0.726);
+	}
+
+	button:focus,
+	button:focus-visible {
+		outline: 4px auto -webkit-focus-ring-color;
+		border-color: #0913da88;
 	}
 }
