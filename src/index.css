@@ -32,6 +32,10 @@ body {
 	min-height: 100vh;
 }
 
+.totalWidth {
+	width: 50rem;
+}
+
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
@@ -76,16 +80,41 @@ button {
 	border: 0.2px solid rgba(1, 2, 27, 0.726);
 }
 
+.btn-gradReady {
+	width: 40%;
+	font-size: 100%;
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: #020446ff;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+}
+
 button:focus,
 button:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
 	border-color: #0913da88;
 }
 
-@media (prefers-color-scheme: light) {
+@media only screen and (max-width: 900px) {
 	:root {
 		color: #213547;
 		background-color: #ffffff;
+		color-scheme: light;
+		font-size: 1rem;
+	}
+
+	.totalWidth {
+		width: 20rem;
+	}
+
+	h1 {
+		font-size: 2em;
+		line-height: 1.1;
 	}
 	a:hover {
 		color: #747bff;
@@ -93,7 +122,7 @@ button:focus-visible {
 	button {
 		border-radius: 8px;
 		border: 1px solid transparent;
-		padding: 0.6em 1.2em;
+		padding: 0.1rem;
 		font-size: 1em;
 		font-weight: 500;
 		font-family: inherit;
@@ -112,7 +141,7 @@ button:focus-visible {
 	}
 	.btn-grad {
 		margin: 10px;
-		padding: 15px 45px;
+		padding: 0.4rem;
 		text-align: center;
 		text-transform: uppercase;
 		transition: 0.5s;
@@ -120,6 +149,23 @@ button:focus-visible {
 		color: #020446ff;
 		box-shadow: 0 0 20px #eee;
 		border-radius: 10px;
+		width: 10rem;
+		align-items: center;
+	}
+	.btn-gradReady {
+		padding: 0.4rem;
+		text-align: center;
+		text-transform: uppercase;
+		transition: 0.5s;
+		background-size: 200% auto;
+		color: #020446ff;
+		box-shadow: 0 0 20px #eee;
+		border-radius: 10px;
+		width: 80%;
+		font-size: 2rem;
+		height: 4rem;
+		align-items: center;
+		margin: 1rem 0;
 	}
 
 	.btn-grad:hover {

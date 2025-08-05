@@ -44,6 +44,7 @@ function Instructions({
 
 	return (
 		<div
+			className="totalWidth"
 			style={{
 				background: ' #c8d5de',
 				background:
@@ -54,7 +55,6 @@ function Instructions({
 				borderRadius: '5px',
 				padding: '1.3rem',
 				boxShadow: '0 0 10px grey',
-				width: '50rem',
 				height: '100%',
 				boxSizing: 'border-box',
 			}}
@@ -114,12 +114,11 @@ function Instructions({
 				<div>
 					{uniqueSubject.map((subj) => (
 						<button
-							className="btn-grad"
+							className={`btn-grad`}
 							onClick={() => setSubject(subj)}
 							style={{
 								margin: '1rem',
 								fontSize: '1.3rem',
-								width: '20rem',
 								boxShadow: '0 0 12px #eee',
 							}}
 						>
@@ -130,10 +129,9 @@ function Instructions({
 			</div>
 			{/* Ready Button */}
 			<button
+				className="btn-gradReady"
 				onClick={quizAttempt}
 				style={{
-					fontSize: '4rem',
-					width: '40%',
 					padding: '.5rem',
 					marginBottom: '1rem',
 					backgroundColor: '191cc280',

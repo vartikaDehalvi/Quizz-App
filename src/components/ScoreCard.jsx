@@ -10,6 +10,7 @@ function ScoreCard({
 }) {
 	return (
 		<div
+			className="totalWidth"
 			style={{
 				background: ' #c8d5de',
 				background:
@@ -20,7 +21,6 @@ function ScoreCard({
 				borderRadius: '5px',
 				padding: '3rem',
 				boxShadow: '0 0 10px grey',
-				width: '30rem',
 				boxSizing: 'border-box',
 			}}
 		>

@@ -9,6 +9,7 @@ function formatKey(key) {
 function Premium({ premiumPacks, setScreen }) {
 	return (
 		<div
+			className="totalWidth"
 			style={{
 				background: ' #003458ff',
 				background:

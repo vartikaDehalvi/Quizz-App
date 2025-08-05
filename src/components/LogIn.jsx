@@ -3,7 +3,7 @@ import LogInPage from './LogInPage';
 
 function LogIn({ setScreen, setUserOrAdmin }) {
 	return (
-		<div>
+		<div className="totalWidth">
 			<h2
 				style={{
 					color: '#020446ff',

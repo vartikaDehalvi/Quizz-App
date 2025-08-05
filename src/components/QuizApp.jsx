@@ -81,6 +81,7 @@ function QuizApp({
 
 	return (
 		<div
+			className="totalWidth"
 			style={{
 				background:
 					'linear-gradient(0deg, rgba(200, 213, 222, 0.57) 63%, rgba(22, 28, 204, 0.34) 100%)',
@@ -88,7 +89,6 @@ function QuizApp({
 				borderRadius: '5px',
 				padding: '1.3rem',
 				boxShadow: '0 0 10px grey',
-				width: '50rem',
 				boxSizing: 'border-box',
 			}}
 		>

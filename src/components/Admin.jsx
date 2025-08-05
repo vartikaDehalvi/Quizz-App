@@ -112,6 +112,7 @@ function Admin({
 
 	return (
 		<div
+			className="totalWidth"
 			style={{
 				background: ' #c8d5de',
 				background:
