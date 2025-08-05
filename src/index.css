@@ -84,15 +84,6 @@ button:focus-visible {
 	border-color: #0913da88;
 }
 
-.bgDark {
-	background: linear-gradient(
-		0deg,
-		rgba(1, 30, 51, 0.767) 21%,
-		rgba(0, 3, 36, 0.664) 100%
-	);
-	color: rgba(255, 255, 255, 0.562);
-}
-
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;
