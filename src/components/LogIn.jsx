@@ -5,7 +5,13 @@ function LogIn({ setScreen, setUserOrAdmin }) {
 	return (
 		<div>
 			<h2>Log In</h2>
-			<div style={{ display: 'flex', justifyContent: 'space-around' }}>
+			<div
+				style={{
+					display: 'flex',
+					justifyContent: 'space-around',
+					color: '#020446ff',
+				}}
+			>
 				<button
 					className="btn-grad"
 					onClick={() => {
